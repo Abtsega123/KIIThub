@@ -27,6 +27,15 @@ const LeftSidebar = () => {
   return (
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
+      <Link to='https://chat.vercel.ai/' className='flex items-center gap-4'>
+<img
+    src="/assets/images/robot.svg"
+    alt="logo"
+    width={80}
+    height={3}
+  />
+  <p className='text-heading3-bold text-light-1 max-xs:hidden'>Chat Center</p>
+</Link>
         <Link to="/" className="flex gap-3 items-center">
           <img
             src="/assets/images/logo.svg"
