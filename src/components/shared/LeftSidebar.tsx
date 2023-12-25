@@ -38,9 +38,9 @@ const LeftSidebar = () => {
 </Link>
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/kiit.png"
             alt="logo"
-            width={170}
+            width={100}
             height={36}
           />
         </Link>
